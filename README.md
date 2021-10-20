@@ -1,4 +1,4 @@
-# juuust-vue-icon
+# figma-vue-icon
 
 ## Project setup
 ```
