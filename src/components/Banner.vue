@@ -1,14 +1,14 @@
 <template>
   <div>
-    <h1 class="banner">figma Vue Icon</h1>
+    <h1 class="banner">mp figma Vue Icon</h1>
     <div class="code">
       <div>
         <h3>Installation</h3>
-        <pre><code>npm install figma-vue-icon --save<br/>yarn add figma-vue-icon</code></pre>
+        <pre><code>npm install mp-figma-vue-icons --save<br/>yarn add mp-figma-vue-icons</code></pre>
       </div>
       <div>
         <h3>Usage</h3>
-        <pre><code>import { IconHome } from 'figma-vue-icon'<br/>&lt;IconHome :size="36" color="#009C22" &gt;</code></pre>
+        <pre><code>import { IconHome } from 'mp-figma-vue-icons'<br/>&lt;IconHome :size="36" color="#009C22" &gt;</code></pre>
       </div>
     </div>
   </div>
@@ -29,7 +29,6 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 720px;
   }
   .code div{
     width: 48%;
