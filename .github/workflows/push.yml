@@ -12,13 +12,13 @@ jobs:
     name: figma icon automation
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
-          node-version: "14.x"
+          node-version: "14"
       - run: yarn install
       - name: Figma Action
-        uses: primer/figma-action@v1.0.0-alpha.2
+        uses: primer/figma-action@v1.0.0-alpha.3
         with:
           args: "format=svg outputDir=./src/"
         env:
@@ -39,9 +39,8 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       - name: feishu bot notification
         uses: wangsijie/feishu-bot@v1
-        env:
-          FEISHU_BOT_WEBHOOK: ${{secrets.FEISHU_BOT_WEBHOOK}}
         with:
+          uuid: 72469622-18ee-410c-bfd4-bbea8909c23a
           data: |
             {
               "msg_type": "post",
