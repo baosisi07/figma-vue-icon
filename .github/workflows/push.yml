@@ -54,12 +54,12 @@ jobs:
                               [
                                   {
                                       "tag": "text",
-                                      "text": "请使用 yarn upgrade figma-vue-icon --latest 更新。 "
+                                      "text": "请使用 yarn upgrade mp-figma-vue-icons --latest 更新。 "
                                   },
                                   {
                                       "tag": "a",
                                       "text": "点击查看图标",
-                                      "href": "https://baosisi07.github.io/figma-vue-icon/"
+                                      "href": "https://baosisi07.github.io/mp-figma-vue-icons/"
                                   }
                               ]
                           ]

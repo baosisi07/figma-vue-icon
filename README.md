@@ -1,4 +1,4 @@
-# figma-vue-icon
+# mp-figma-vue-icons
 
 ## Project setup
 ```

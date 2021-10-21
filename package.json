@@ -1,5 +1,5 @@
 {
-  "name": "figma-vue-icon",
+  "name": "mp-figma-vue-icons",
   "version": "0.0.2",
   "description": "Vue Icon, Automation workflow with Figma",
   "main": "bundle/index.common.js",
@@ -7,7 +7,7 @@
     "dist",
     "es"
   ],
-  "repository": "https://github.com/baosisi07/figma-vue-icon.git",
+  "repository": "https://github.com/baosisi07/mp-figma-vue-icons.git",
   "scripts": {
     "generate": "sudo rm -rf src/icons && node bin/build.js",
     "serve": "vue-cli-service serve",
