@@ -1,7 +1,7 @@
 {
   "name": "mp-figma-vue-icons",
   "version": "0.0.2",
-  "description": "Vue Icon, Automation workflow with Figma",
+  "description": "mp Vue Icon, Automation workflow with Figma",
   "main": "bundle/index.common.js",
   "files": [
     "dist",
